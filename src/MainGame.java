@@ -14,7 +14,6 @@ public class MainGame {
 				+ "\n\n"
 				+ "See if you can guess my number hotshot! I'm thinking of a number between 1 and 10, and no mindreading, because thats cheating!\n");
 		int secretNum = new Random().nextInt(11 + 1);
-		System.out.println(secretNum);
 		// MainGame functionality
 		try {
 
